@@ -1,4 +1,5 @@
 import Link from "next/link";
+import InputSearch from "./InputSearch";
 
 const Navbar = () => {
   return (
@@ -9,11 +10,7 @@ const Navbar = () => {
           <span className="text-black">Tod</span>
         </div>
       </Link>
-      <input
-        type="text"
-        placeholder="Search"
-        className="rounded-md text-center"
-      />
+      <InputSearch />
     </div>
   );
 };
