@@ -3,11 +3,12 @@ import InputSearch from "./InputSearch";
 
 const Navbar = () => {
   return (
-    <div className="bg-indigo-400 flex justify-between p-4">
+    <div className="bg-color-secondary flex justify-between p-4">
       <Link href="/">
-        <div className="flex text-2xl font-bold">
-          <h1 className="text-white">Wibu</h1>
-          <span className="text-black">Tod</span>
+        <div className="flex">
+          <h1 className=" text-3xl font-bold text-black hover:text-white">
+            NEXTME
+          </h1>
         </div>
       </Link>
       <InputSearch />

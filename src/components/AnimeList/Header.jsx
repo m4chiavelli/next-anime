@@ -6,7 +6,7 @@ const Header = ({ title, linkHref, linkTitle }) => {
       <h1 className="text-3xl font-bold">{title}</h1>
       <Link
         href={linkHref}
-        className="md:text-lg text-sm underline hover:bg-indigo-400 transition-all p-2 rounded-md"
+        className="md:text-lg text-sm hover:text-color-hover underline transition-all p-2 rounded-md"
       >
         {linkTitle}
       </Link>

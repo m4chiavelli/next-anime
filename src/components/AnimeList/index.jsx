@@ -23,7 +23,7 @@ const AnimeList = ({ api }) => {
             className="group relative cursor-pointer transition-all"
             key={index}
           >
-            <div className="relative overflow-hidden border-2 border-indigo-600 rounded-2xl">
+            <div className="relative overflow-hidden border-2 border-color-primary rounded-2xl transition-all duration-300 ease-in-out group-hover:border-color-hover">
               <Image
                 src={anime.images.webp.image_url}
                 alt={anime.title}

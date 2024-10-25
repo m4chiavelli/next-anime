@@ -28,12 +28,15 @@ const InputSearch = () => {
       <input
         type="text"
         placeholder="Search"
-        className="rounded-md text-start w-40 p-1"
+        className="rounded-md text-start w-40 p-1 text-black"
         ref={searchRef}
         onKeyDown={handleKeyDown} // Tambahkan event listener untuk Enter
       />
       <button className="absolute top-1 right-1" onClick={handleSearch}>
-        <MagnifyingGlass size={24} />
+        <MagnifyingGlass
+          size={24}
+          className="text-color-primary hover:text-color-hover"
+        />
       </button>
     </div>
   );

@@ -12,7 +12,7 @@ const Page = async ({ params }) => {
     <>
       <section>
         <Header
-          title={`HasilS Pencarian dari ${keyword}`}
+          title={`Hasil Pencarian dari ${keyword}`}
           linkTitle="View More"
           linkHref="/populer"
         />
