@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
+
+// import { webpack } from "next/dist/compiled/webpack/webpack";
+
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 const nextConfig = {
   images: {
     remotePatterns: [

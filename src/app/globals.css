@@ -28,7 +28,7 @@ img:hover {
   scale: 102%;
 }
 
-// loading
+/* loader */
 .loader {
   width: 48px;
   height: 48px;
@@ -47,4 +47,30 @@ img:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* banner-button */
+.banner-button {
+  background-color: #ff3d00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -ms-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+}
+
+.Navbar {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
 }
